@@ -82,3 +82,11 @@ $ npm install animatelo --save
 window.animatelo.flip('#hello');
 ```
 * [animatelo.js](https://github.com/gibbok/animatelo)
+
+```js
+flash() {
+   return window.animatelo.flash(this.element, {
+     duration: 500
+   });
+ }
+```
