@@ -34,4 +34,5 @@ matrix(n,n,n,n,n,n)| 元素以參考點為中心，依變形矩陣的6個參數�
 > 把 # 作為傳遞切換路徑的方式，無需重新加載頁面即可更新網頁。
 > 
 > [AJAX](https://www.w3schools.com/js/js_ajax_intro.asp)
-> [Gitlab](https://gitlab.com/ccc110/sa/-/tree/master/se/08-verify/02-ajax/02-blogAjax)
+> 
+> [Use puppeteer Test your AJAX](https://gitlab.com/ccc110/sa/-/tree/master/se/08-verify/02-ajax/02-blogAjax)
