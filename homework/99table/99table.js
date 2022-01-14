@@ -1,34 +1,14 @@
-/*function table(){
-  document.write('<h1>九九乘法表</h1>');
-  document.write('<table>')
-  for(let i = 1; i < 10; i++){
-      for(let j = 1; j < 10; j++){
-          if(j==i){document.write(
-              `<td style="background-color: #716746; color: white">${i*j}</td>`)} 
-          else if(i == 1){document.write(`<th>${i*j}</th>`)}
-          else if(j == 1){document.write(`<tr><th>${i*j}</th>`)}
-          else{document.write(`<td>${i*j}</td>`)}
-      }
-  }
-}*/
-function table(){
-  document.write('<h1>九九乘法表</h1>');
-  document.write('<table>')
-  for(i = 1; i < 10; i++){
-    for(j = 1; j < 10; j++){ 
-      if(i == j){
-        document.write('<td>' + i * j + '</td>');
-      }
-      else if(i == 1){
-        document.write('<th>'+ i * j +'</th>');
-      }
-      else if(j == 1){
-        document.write('<tr>'+'<th>'+ i * j +'</th>');
-      }
-      else{
-        document.write('<td>'+ i * j +'<td>')
-      }
+export function table99(){
+    let table=["<table><tr><th></th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th><th>7</th><th>8</th><th>9</th></tr>"]
+    for(let i=1;i<=9;i++){
+        let row=`<tr><th>${i}</th>`
+        for(let j=1;j<=9;j++){
+            row+=`<td>${i*j}</td>`
+        }
+        row+="</tr>"
+        table.push(row)
     }
-  }
-document.write('</>');
+    return table.join('\n')+'</table>'
 }
+
+console.log(table99())
