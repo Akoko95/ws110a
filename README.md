@@ -25,3 +25,13 @@ skew(θx,θy)|	元素以參考點為中心，X軸傾斜θx度，Y軸傾斜θy度
 skewX(θ)|	元素以參考點為中心，X軸的傾斜θ度
 skewY(θ)| 元素以參考點為中心，Y軸的傾斜θ度
 matrix(n,n,n,n,n,n)| 元素以參考點為中心，依變形矩陣的6個參數值產生2D變形，matrix(scaleX(),skewY(),skewX(),scaleY(),translateX(),translateY())，可參考https://www.jianshu.com/p/52e0018e6ce2
+
+
+## javascript
+
+### AJAX
+
+> 把 # 作為傳遞切換路徑的方式，無需重新加載頁面即可更新網頁。
+> 
+> [AJAX](https://www.w3schools.com/js/js_ajax_intro.asp)
+> [Gitlab](https://gitlab.com/ccc110/sa/-/tree/master/se/08-verify/02-ajax/02-blogAjax)
